@@ -1,0 +1,21 @@
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+*.un~
+Session.vim
+.netrwhist
+*~
+tags
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Docs
+*.pdf
+*.html
+*.tex
