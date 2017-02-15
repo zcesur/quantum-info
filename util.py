@@ -65,7 +65,7 @@ def to_numeric_blocks(string, block_size):
 def to_string(numeric_blocks):
     import numpy as np
 
-    # FLatten the matrix in column-major (Fortran-style) order
+    # Flatten the matrix in column-major (Fortran-style) order
     array = np.asarray(numeric_blocks).ravel(order='F')
     return ''.join(ascii_uppercase[x] for x in array)
 
